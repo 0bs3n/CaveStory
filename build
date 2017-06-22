@@ -1,0 +1,2 @@
+g++ src/*.cpp -o release/run -lSDL2 -lSDL2_image -Iheaders;
+release/run
