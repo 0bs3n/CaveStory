@@ -1,7 +1,8 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include "sprite.h"
+#include "player.h"
+#include "level.h"
 
 class Graphics;
 
@@ -16,7 +17,8 @@ private:
     void update( float elapsedTime );
     void limitFPS( float elapsedTime, int FPS );
 
-    Sprite _player;
+    Player _player;
+    Level _level;
 
 };
 

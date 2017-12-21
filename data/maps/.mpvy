@@ -1,0 +1,1 @@
+M%{F#9588ff}[mpv]   %{F#f3f4f5}24/7 Lofi Hiphop Radio - Beats to Relax | Chill | Study | Game %{A1:pkill mpv && rm /home/ethan/.mpvy && mpc random > /dev/null && mpc random > /dev/null:} %{F#9588ff} %{A} 

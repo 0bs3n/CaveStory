@@ -9,6 +9,32 @@ namespace globals {
 
 }
 
+namespace sides {
+    enum Side {
+        TOP,
+        BOTTOM,
+        LEFT,
+        RIGHT,
+        NONE
+    };
+
+    inline Side getOppositeSide( Side side ) {
+        return
+            side == TOP ? BOTTOM :
+            side == BOTTOM ? TOP :
+            side == RIGHT ? LEFT :
+            side == LEFT ? RIGHT :
+            NONE;
+    }
+}
+
+enum Direction {
+    LEFT,
+    RIGHT,
+    UP,
+    DOWN
+};
+
 struct Vector2 {
     int x, y;
      
@@ -28,6 +54,7 @@ struct Vector2 {
     }
 
 };
+
 
 
 #endif
